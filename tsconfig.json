@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "NodeNext",
+    "strict": true,
+    "outDir": "./dist",
+    "rootDir": "challenges",
+    "esModuleInterop": true,
+    "skipLibCheck": true
+  },
+  "include": ["challenges/**/*"],
+  "exclude": ["node_modules"]
+}

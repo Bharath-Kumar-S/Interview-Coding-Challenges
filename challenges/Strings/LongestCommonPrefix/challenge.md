@@ -1,0 +1,3 @@
+Finding the longest common prefix involves iterating character by character over strings, starting from the first character. We compare the characters at the same position across all strings until we find a mismatch or reach the end of one of the strings. The common characters encountered up to this point form the longest common prefix. This approach ensures we only retain characters that are common to all strings from the beginning.
+
+Before we compare the characters, it's essential to identify the shortest string in the array, as the longest common prefix cannot be longer than the shortest string. We use the reduce method and a simple loop in TypeScript to achieve this, ensuring type safety by defining our variable types.
